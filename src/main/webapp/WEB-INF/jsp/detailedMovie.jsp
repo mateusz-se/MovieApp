@@ -54,7 +54,7 @@
             <script>
                 var app = angular.module('getPlot', []);
                 app.controller('plotController', function($scope, $http) {
-                    $http.get("//www.omdbapi.com/?t=${movie.title.replace(":", "%3A")}&y=&plot=full&r=json")
+                    $http.get("//www.omdbapi.com/?t=${movie.title.replace(":", "%3A")}&y=&plot=short&r=json")
                             .success(function(response) {$scope.plot = response.Plot;});
                 });
             </script>
