@@ -8,7 +8,7 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-
+<a href="../">Top 20</a>
 <div>
     <canvas id="pieChart" width=700 height=700></canvas>
 
