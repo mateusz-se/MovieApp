@@ -4,7 +4,7 @@
 <html lang="en-US">
 <head>
   <meta charset="UTF-8">
-  <c:redirect url="/app/"/>
+  <c:redirect url="app/"/>
   <title>Page Redirection</title>
 </head>
 <body>
