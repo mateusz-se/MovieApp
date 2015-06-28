@@ -25,7 +25,7 @@
     <div class="row">
         <div class="span8 offset2">
 
-            <form:form method="post" action="search/" commandName="movieSearch" class="form-vertical">
+            <form:form method="post" action="../search/" commandName="movieSearch" class="form-vertical">
                 <form:label path="genre">Genre</form:label>
                 <form:input path="genre"></form:input>
                 <form:label path="minRating">Minimum rating</form:label>
