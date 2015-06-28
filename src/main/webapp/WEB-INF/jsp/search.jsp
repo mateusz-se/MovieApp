@@ -28,14 +28,20 @@
             <form:form method="post" action="../search/" commandName="movieSearch" class="form-vertical">
                 <form:label path="genre">Genre</form:label>
                 <form:input path="genre"></form:input>
+                <form:errors path="genre"></form:errors>
                 <form:label path="minRating">Minimum rating</form:label>
                 <form:input path="minRating"></form:input>
-                <input type="submit" value="Search" class="btn"/>
+                <form:errors path="minRating"></form:errors>
+                </br><input type="submit" value="Search" class="btn"/>
             </form:form>
 
         </div>
     </div>
-    <c:if  test="${!empty movies}">
+<c:choose>
+    <c:when test="${empty movies}">
+        <p>Nothing found</p>
+    </c:when>
+    <c:otherwise>
         <table class="table table-bordered table-striped">
             <thead>
             <tr>
@@ -54,7 +60,8 @@
             </c:forEach>
             </tbody>
         </table>
-    </c:if>
+    </c:otherwise>
+</c:choose>
 </div>
 
 </body>
