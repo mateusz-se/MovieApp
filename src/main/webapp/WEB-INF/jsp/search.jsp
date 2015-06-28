@@ -3,8 +3,7 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
-"<html>
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -20,8 +19,8 @@
 </head>
 
 <body>
-<a href="../">Top 20</a>
 <div class="container">
+    <a href="../">Top 20</a>
     <div class="row">
         <div class="span8 offset2">
 

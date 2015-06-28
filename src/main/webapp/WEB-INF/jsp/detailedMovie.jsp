@@ -22,8 +22,8 @@
 
 <body>
 
-<a href="../">Search</a>
 <div class="container">
+    <a href="../">Search</a>
     <div class="row">
         <div class="span8 offset2">
             <div class="page-header">
